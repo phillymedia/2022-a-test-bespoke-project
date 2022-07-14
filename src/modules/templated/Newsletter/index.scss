@@ -1,0 +1,114 @@
+.inno-newsletter {
+  margin: 24px 0 48px;
+}
+
+.inno-newsletter__header {
+  background-color: $color-base-concrete;
+  padding: 15px 15px 50px 15px;
+}
+
+.inno-newsletter__header-tag {
+  font-family: $font-style-base;
+  font-size: $size-font-md;
+  color: $color-base-navy;
+}
+
+.inno-newsletter__header-title {
+  font-family: var(--theme-font, $font-style-display-condensed);
+  font-size: $size-font-xxl;
+  text-transform: var( --theme-font-transform, uppercase);
+  color: $color-base-navy;
+  margin: 10px 0;
+}
+
+.inno-newsletter__header-description {
+  font-family: $font-style-base;
+  font-size: $size-font-md;
+  color: $color-base-navy;
+  line-height: 1.65em;
+}
+
+.inno-newsletter__form {
+  position: relative;
+  margin: -30px 15px 0;
+}
+
+.inno-newsletter__form-form {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  transition: opacity 0.3s ease-in-out;
+
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.inno-newsletter__form-input {
+  width: calc(100% - 115px);
+  font-family: $font-style-base;
+  font-size: $size-font-md;
+  border-radius: 3px;
+  letter-spacing: 0.1px;
+  line-height: 1.4rem;
+  margin-right: 15px;
+  flex: 1;
+  padding: 16px 15px 15px;
+  box-shadow: 0 1px 4px rgba($color-base-dark-gray, 0.1),0 3px 6px rgba($color-base-dark-gray, 0.1);
+}
+
+.inno-newsletter__form-button {
+  border-radius: 3px;
+  text-align: center;
+  font-size: $size-font-xs;
+  text-transform: uppercase;
+  font-family: $font-style-base;
+  font-weight: bold;
+  color: $color-base-white;
+  background-color: $color-base-blue;
+  width: 100px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba($color-base-dark-gray, 0.1),0 3px 6px rgba($color-base-dark-gray, 0.1);
+
+  &:hover {
+    background-color: $color-base-black;
+  }
+
+  &:disabled {
+    background-color: $color-base-light-gray;
+    color: $color-base-mid-gray;
+    pointer-events: none;
+  }
+}
+
+.inno-newsletter__success {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0;
+  color: $color-base-navy;
+  opacity: 0;
+
+  &.is-visible {
+    opacity: 1;
+  }
+}
+
+.inno-newsletter__form-policy {
+  font-size: $size-font-xs * 0.95;
+  margin-top: 10px;
+  color: $color-base-mid-gray;
+  line-height: 1.65;
+
+  a {
+    color: $color-base-mid-gray;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: $color-base-navy;
+    }
+  }
+}

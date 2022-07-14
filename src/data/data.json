@@ -1,0 +1,1014 @@
+{
+  "theme": {
+    "font": "poster",
+    "background": "orange"
+  },
+  "content": [
+    {
+      "type": "hero",
+      "value": [
+        {
+          "type": "image",
+          "value": {
+            "id": "FSPGBNW3MRCSXFY32L3FDXPIKA",
+            "srcSet": [
+              {
+                "src": "https://www.inquirer.com/resizer/cr5CAeWTvkFJdsrieVPMEhPMCTA=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 325
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/ksPjsCuGJNqKJDaBSTzjB_I5Nh0=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 650
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/LooRMhKVH25xWc1t-b0ijUJ5aUc=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 1300
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/p37dy-xwxPYjgGDJX-HJT6TJqzQ=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 2600
+              }
+            ],
+            "caption": "This caption was overridden by specifying a “caption:” tag in the {.image} block. The next image uses the caption directly from Composer.",
+            "credit": "John Locher"
+          }
+        },
+        {
+          "type": "video",
+          "value": {
+            "id": "de479e61-7328-48b3-b5d2-b94444826253",
+            "streams": [
+              {
+                "height": 180,
+                "width": 320,
+                "filesize": 11776132,
+                "stream_type": "ts",
+                "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/mobile.m3u8",
+                "bitrate": 160,
+                "provider": "mediaconvert"
+              },
+              {
+                "height": 360,
+                "width": 640,
+                "filesize": 16428944,
+                "stream_type": "ts",
+                "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/mobile.m3u8",
+                "bitrate": 300,
+                "provider": "mediaconvert"
+              },
+              {
+                "height": 360,
+                "width": 640,
+                "filesize": 26158508,
+                "stream_type": "ts",
+                "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/mobile.m3u8",
+                "bitrate": 600,
+                "provider": "mediaconvert"
+              },
+              {
+                "height": 480,
+                "width": 854,
+                "filesize": 45748860,
+                "stream_type": "ts",
+                "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/master.m3u8",
+                "bitrate": 1200,
+                "provider": "mediaconvert"
+              },
+              {
+                "height": 1080,
+                "width": 1920,
+                "filesize": 153956396,
+                "stream_type": "ts",
+                "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/hd.m3u8",
+                "bitrate": 4500,
+                "provider": "mediaconvert"
+              },
+              {
+                "height": 1080,
+                "width": 1920,
+                "filesize": 178289800,
+                "stream_type": "ts",
+                "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/hlsv4_master.m3u8",
+                "bitrate": 5400,
+                "provider": "mediaconvert"
+              },
+              {
+                "height": 180,
+                "width": 320,
+                "filesize": 9425129,
+                "stream_type": "mp4",
+                "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/file_320x180-160-v3.mp4",
+                "bitrate": 160,
+                "provider": "mediaconvert"
+              },
+              {
+                "height": 360,
+                "width": 640,
+                "filesize": 23494956,
+                "stream_type": "mp4",
+                "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/file_640x360-600-v3.mp4",
+                "bitrate": 600,
+                "provider": "mediaconvert"
+              },
+              {
+                "height": 480,
+                "width": 854,
+                "filesize": 42611547,
+                "stream_type": "mp4",
+                "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/file_854x480-1200-v3_1.mp4",
+                "bitrate": 1200,
+                "provider": "mediaconvert"
+              },
+              {
+                "height": 720,
+                "width": 1280,
+                "filesize": 68287017,
+                "stream_type": "mp4",
+                "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/file_1280x720-2000-v3_1.mp4",
+                "bitrate": 2000,
+                "provider": "mediaconvert"
+              },
+              {
+                "height": 1080,
+                "width": 1920,
+                "filesize": 176948714,
+                "stream_type": "mp4",
+                "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/file_1920x1080-5400-v4.mp4",
+                "bitrate": 5400,
+                "provider": "mediaconvert"
+              }
+            ],
+            "credit": "Kristen Balderas",
+            "poster": "https://www.inquirer.com/resizer/Q0igl84orbKb87-khPRbc2AiJpk=/650x0/d1dazej9q2gz23.cloudfront.net/09-15-2021/t_f033be198ba94252bc1cb5cdd43398d7_name_Thumbnail.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "value": "Lorem **bold** simply *italic* of the **bold** typesetting industry. **Bold** Ipsum **bold** the industry's *italic* dummy *italic* since the 1500s, when an *italic* printer ***___*bold italic*___*** took a galley of type and scrambled it to make a type specimen book. I am new text that has been added through a suggestion."
+    },
+    {
+      "type": "steps",
+      "value": [
+        {
+          "step": "step-name",
+          "text": "During the first day, the delis received **winning bracket submissions** at a predictable rate."
+        },
+        {
+          "step": "another-id",
+          "text": "However, a couple of days in, a **deli from the middle of the pack** saw multiple voting surges."
+        },
+        {
+          "step": "last-step",
+          "text": "On the fourth day, another massive batch of votes gave them a clear lead over the competition. This pattern continued throughout the voting period."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "value": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "note",
+      "value": [
+        {
+          "type": "heading",
+          "value": "Methodology"
+        },
+        {
+          "type": "text",
+          "value": "The Inquirer’s analysis compares Bryce Harper with all 655 non-active players who have reached 5,000 plate appearances since integration in 1947 using a slight variation of Bill James’ [similarity scores](https://www.baseball-reference.com/about/similarity.shtml). As James has [noted](https://community.fangraphs.com/an-exercise-in-generating-similarity-scores/), this method isn’t perfect: “Similarity scores are a method of asking, imperfectly but at least objectively, whether two players are truly similar, or whether the distance between them is considerable.”"
+        },
+        {
+          "type": "text",
+          "value": "Basing the analysis on 5,000 plate appearances allows direct comparison between players at this specific milestone, rather than comparing Harper to other players’ full careers."
+        },
+        {
+          "type": "text",
+          "value": "Why 5,000 plate appearances if Harper had 5,428 by the end of the season? There's no meaningful difference in the similarity scores at 5,000 and 5,428 — the players and order of similarity are the same — so we chose the round number."
+        },
+        {
+          "type": "text",
+          "value": "Game-by-game stats come from Chadwick Baseball Bureau’s [retrosplits](https://github.com/chadwickbureau/retrosplits) (based on [Retrosheet](https://www.retrosheet.org/)) and supplemental data are from [Sean Lahman’s Baseball Database](http://www.seanlahman.com/baseball-archive/statistics/)."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    },
+    {
+      "type": "audio",
+      "value": {
+        "file": "https://media.inquirer.com/storage/inquirer/projects/2021/12/project/1638545448051/assets/audio/lillian-lee-homegoing.mp3",
+        "title": "Here is my audio!"
+      }
+    },
+    {
+      "type": "text",
+      "value": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "newsletter",
+      "value": {
+        "id": "3582e11a4a2bf30ffa4f63a4c9e0c599",
+        "title": "Let’s Eat, Philly!",
+        "description": "Looking for new restaurants, food news, and the best ways to eat in Philadelphia? Every Wednesday, The Inquirer’s Mike Klein dishes the latest on Philly’s food scene."
+      }
+    },
+    {
+      "type": "html",
+      "value": {
+        "id": "https://gist.github.com/sammorrisdesign/013d0be85a3d13b98fbf51d6dd94ce6c",
+        "align": "left",
+        "code": "<style>\n    .spot-illustration {\n        width: 100%;\n        display: block;\n        margin: 0 auto;\n    }\n</style>\n<style>\n    /* Horrible hack to get the lead image to be full width */\n    #fusion-app .longform-wrapper .topper-img-wrapper {\n        max-width: 1280px !important;\n        height: auto !important;\n        width: 100% !important\n    }\n\n    #fusion-app .longform-wrapper .topper-img-wrapper img {\n        height: auto !important;\n        width: 100% !important;\n        object-fit: fill !important;\n        max-width: none !important;\n        max-height: none !important;\n    }\n</style>\n<div>\n  <img class=\"spot-illustration spot-illustration--left\" src=\"https://www.inquirer.com/resizer/5Y5h5w4E1e9QbrMBdAKLuFCByZE=/arc-anglerfish-arc2-prod-pmn/public/HOAPEVGI25CQZHNWZTIIUGYUWM.png\" />\n</div>\n<script type='text/javascript'>\nconsole.log('test embed');\n</script>\n"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "html",
+      "value": {
+        "id": "https://gist.github.com/sammorrisdesign/013d0be85a3d13b98fbf51d6dd94ce6c",
+        "align": "full",
+        "code": "<style>\n    .spot-illustration {\n        width: 100%;\n        display: block;\n        margin: 0 auto;\n    }\n</style>\n<style>\n    /* Horrible hack to get the lead image to be full width */\n    #fusion-app .longform-wrapper .topper-img-wrapper {\n        max-width: 1280px !important;\n        height: auto !important;\n        width: 100% !important\n    }\n\n    #fusion-app .longform-wrapper .topper-img-wrapper img {\n        height: auto !important;\n        width: 100% !important;\n        object-fit: fill !important;\n        max-width: none !important;\n        max-height: none !important;\n    }\n</style>\n<div>\n  <img class=\"spot-illustration spot-illustration--left\" src=\"https://www.inquirer.com/resizer/5Y5h5w4E1e9QbrMBdAKLuFCByZE=/arc-anglerfish-arc2-prod-pmn/public/HOAPEVGI25CQZHNWZTIIUGYUWM.png\" />\n</div>\n<script type='text/javascript'>\nconsole.log('test embed');\n</script>\n"
+      }
+    },
+    {
+      "type": "quote",
+      "value": {
+        "text": "If you pick up a starving dog and make him prosperous, he will not bite you. This is the principal difference between a dog and a man.",
+        "align": "right",
+        "credit": "Mark Twain"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remainingessentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remainingessentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "image",
+      "value": {
+        "id": "UCHYOI5OIBB6HHZ4DA6TTO7VBA",
+        "srcSet": [
+          {
+            "src": "https://www.inquirer.com/resizer/mCDCqeAxanQrZUknzBINlMeNqY8=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 325
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/hordviPJcSFoTQrv4fRuoZHR0Q0=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 650
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/Opr0aHDFBj2L2249pgO87qlNLEg=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 1300
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/hr7x6aruSfeWOn8dCpp5T5IBCAQ=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 2600
+          }
+        ],
+        "caption": "The Philadelphia Energy Solutions Refining Complex in Philadelphia is shown Wednesday, June 26, 2019. The owner of the largest oil refinery complex on the East Coast is telling officials that it will close the facility after a fire last week set off explosions and damaged the facility. Philadelphia Mayor Jim Kenney said in a Wednesday, June 26, statement that Philadelphia Energy Solutions has informed him of its decision\n (AP Photo/Matt Rourke)",
+        "credit": "Matt Rourke / AP",
+        "align": "right"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "image",
+      "value": {
+        "id": "UCHYOI5OIBB6HHZ4DA6TTO7VBA",
+        "srcSet": [
+          {
+            "src": "https://www.inquirer.com/resizer/mCDCqeAxanQrZUknzBINlMeNqY8=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 325
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/hordviPJcSFoTQrv4fRuoZHR0Q0=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 650
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/Opr0aHDFBj2L2249pgO87qlNLEg=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 1300
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/hr7x6aruSfeWOn8dCpp5T5IBCAQ=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 2600
+          }
+        ],
+        "caption": "The Philadelphia Energy Solutions Refining Complex in Philadelphia is shown Wednesday, June 26, 2019. The owner of the largest oil refinery complex on the East Coast is telling officials that it will close the facility after a fire last week set off explosions and damaged the facility. Philadelphia Mayor Jim Kenney said in a Wednesday, June 26, statement that Philadelphia Energy Solutions has informed him of its decision\n (AP Photo/Matt Rourke)",
+        "credit": "Matt Rourke / AP",
+        "align": "full"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "timeline",
+      "value": [
+        {
+          "date": "Date goes here",
+          "title": "Title goes here",
+          "body": [
+            {
+              "type": "text",
+              "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra. Commodo viverra maecenas accumsan lacus vel."
+            },
+            {
+              "type": "text",
+              "value": "Quisque egestas diam in arcu cursus euismod quis. Interdum posuere lorem ipsum dolor sit. Nisl rhoncus mattis rhoncus urna. Ornare arcu odio ut sem nulla pharetra diam sit. Semper quis lectus nulla at volutpat diam. Fermentum odio eu feugiat pretium. Adipiscing elit duis tristique sollicitudin. Ultrices neque ornare aenean euismod elementum nisi quis eleifend."
+            },
+            {
+              "type": "text",
+              "value": "Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Sem et tortor consequat id porta. Nec feugiat in fermentum posuere. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus."
+            },
+            {
+              "type": "image",
+              "value": {
+                "id": "UCHYOI5OIBB6HHZ4DA6TTO7VBA",
+                "srcSet": [
+                  {
+                    "src": "https://www.inquirer.com/resizer/mCDCqeAxanQrZUknzBINlMeNqY8=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+                    "size": 325
+                  },
+                  {
+                    "src": "https://www.inquirer.com/resizer/hordviPJcSFoTQrv4fRuoZHR0Q0=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+                    "size": 650
+                  },
+                  {
+                    "src": "https://www.inquirer.com/resizer/Opr0aHDFBj2L2249pgO87qlNLEg=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+                    "size": 1300
+                  },
+                  {
+                    "src": "https://www.inquirer.com/resizer/hr7x6aruSfeWOn8dCpp5T5IBCAQ=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+                    "size": 2600
+                  }
+                ],
+                "caption": "Archbishop Anthony Bevilacqua in 1989.",
+                "credit": "Matt Rourke / AP"
+              }
+            }
+          ]
+        },
+        {
+          "date": "Date goes here",
+          "title": "Title goes here",
+          "body": [
+            {
+              "type": "text",
+              "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra. Commodo viverra maecenas accumsan lacus vel. Quisque egestas diam in arcu cursus euismod quis. Interdum posuere lorem ipsum dolor sit."
+            },
+            {
+              "type": "text",
+              "value": "Nisl rhoncus mattis rhoncus urna. Ornare arcu odio ut sem nulla pharetra diam sit. Semper quis lectus nulla at volutpat diam. Fermentum odio eu feugiat pretium. Adipiscing elit duis tristique sollicitudin. Ultrices neque ornare aenean euismod elementum nisi quis eleifend. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Sem et tortor consequat id porta. Nec feugiat in fermentum posuere. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider",
+      "value": ""
+    },
+    {
+      "type": "ad",
+      "value": "phl.news"
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+      "type": "image",
+      "value": {
+        "id": "UCHYOI5OIBB6HHZ4DA6TTO7VBA",
+        "srcSet": [
+          {
+            "src": "https://www.inquirer.com/resizer/mCDCqeAxanQrZUknzBINlMeNqY8=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 325
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/hordviPJcSFoTQrv4fRuoZHR0Q0=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 650
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/Opr0aHDFBj2L2249pgO87qlNLEg=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 1300
+          },
+          {
+            "src": "https://www.inquirer.com/resizer/hr7x6aruSfeWOn8dCpp5T5IBCAQ=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/UCHYOI5OIBB6HHZ4DA6TTO7VBA.jpg",
+            "size": 2600
+          }
+        ],
+        "caption": "The Philadelphia Energy Solutions Refining Complex in Philadelphia is shown Wednesday, June 26, 2019. The owner of the largest oil refinery complex on the East Coast is telling officials that it will close the facility after a fire last week set off explosions and damaged the facility. Philadelphia Mayor Jim Kenney said in a Wednesday, June 26, statement that Philadelphia Energy Solutions has informed him of its decision\n (AP Photo/Matt Rourke)",
+        "credit": "Matt Rourke / AP",
+        "align": "screen"
+      }
+    },
+    {
+      "type": "heading",
+      "value": "Lorem Ipsum Test"
+    },
+    {
+      "type": "list",
+      "value": [
+        {
+          "type": "text",
+          "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+          "type": "text",
+          "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+          "type": "text",
+          "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "value": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "conversation",
+      "value": {
+        "settings": [
+          {
+            "border": "conversation",
+            "alternating": "false",
+            "mood": "lively"
+          }
+        ],
+        "quotes": [
+          {
+            "name": "Marcus Hayes",
+            "label": "Sports columnist",
+            "image": {
+              "id": "FMGWVILCHZDRXAOSFFL7BGAAFI",
+              "srcSet": [
+                {
+                  "src": "https://www.inquirer.com/resizer/85aCNY4qOnJAKG5I-fOw8rU6I3Y=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FMGWVILCHZDRXAOSFFL7BGAAFI.jpg",
+                  "size": 325
+                },
+                {
+                  "src": "https://www.inquirer.com/resizer/1rW5Sa6lsSke4I7TSDOwdu6BYk4=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FMGWVILCHZDRXAOSFFL7BGAAFI.jpg",
+                  "size": 650
+                },
+                {
+                  "src": "https://www.inquirer.com/resizer/WhJMj4v5v31M6TqJMDkQKuw7kss=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FMGWVILCHZDRXAOSFFL7BGAAFI.jpg",
+                  "size": 1300
+                },
+                {
+                  "src": "https://www.inquirer.com/resizer/paNL5m7rsR2udzKHvnthu8Nyxuo=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FMGWVILCHZDRXAOSFFL7BGAAFI.jpg",
+                  "size": 2600
+                }
+              ],
+              "caption": "German Chancellor Angela Merkel feeds Australian lorikeets at Marlow Bird Park in Marlow, Germany, Thursday Sept. 23, 2021. (Georg Wendt/dpa via AP)",
+              "credit": "Georg Wendt / AP"
+            },
+            "body": [
+              {
+                "type": "text",
+                "value": "Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen."
+              },
+              {
+                "type": "text",
+                "value": "Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert)."
+              }
+            ]
+          },
+          {
+            "name": "Scott Lauber",
+            "label": "Phillies writer",
+            "image": {
+              "id": "JVWUH5Z7OFEQ7JTFWBHPAZMY4A",
+              "srcSet": [
+                {
+                  "src": "https://www.inquirer.com/resizer/oQtIWf_6niww5x_VuW-vljtWFQQ=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/JVWUH5Z7OFEQ7JTFWBHPAZMY4A.jpg",
+                  "size": 325
+                },
+                {
+                  "src": "https://www.inquirer.com/resizer/qOpqCrtwiJxwFyYt4zw6FiPEx_U=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/JVWUH5Z7OFEQ7JTFWBHPAZMY4A.jpg",
+                  "size": 650
+                },
+                {
+                  "src": "https://www.inquirer.com/resizer/EM09F7_UCGQQkQC3W-SwD5wMhSg=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/JVWUH5Z7OFEQ7JTFWBHPAZMY4A.jpg",
+                  "size": 1300
+                },
+                {
+                  "src": "https://www.inquirer.com/resizer/5eROUjqSjRpP1hLTimdfrHjNH-o=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/JVWUH5Z7OFEQ7JTFWBHPAZMY4A.jpg",
+                  "size": 2600
+                }
+              ],
+              "caption": "Russian President Vladimir Putin attends a meeting via video conference at the Novo-Ogaryovo residence outside Moscow, Russia, Thursday, Sept. 23, 2021. (Alexei Druzhinin, Sputnik, Kremlin Pool Photo via AP)",
+              "credit": "Alexei Druzhinin"
+            },
+            "body": [
+              {
+                "type": "text",
+                "value": "The Phillies actually had an off-day on March 11. There was no clubhouse or ballpark access, but there was news: Seranthony Dominguez had a setback with his elbow and was scheduled for an MRI."
+              },
+              {
+                "type": "text",
+                "value": "Mostly, though, everyone was still talking about the protocols that MLB put in place the day before to limit the number of people in clubhouses, including media, which now had to conduct interviews outside while standing six feet apart. Little did we know that those were merely the early days of social distancing."
+              }
+            ]
+          },
+          {
+            "name": "Marcus Hayes",
+            "label": "Sports columnist",
+            "body": [
+              {
+                "type": "text",
+                "value": "On March 9, [I wrote a column](https://www.inquirer.com/health/coronavirus/flyers-coronavirus-philadelphia-lebron-james-20200309.html) that, in the face of the NHL and NBA refusing to suspend play, advised fans to stay home from all sporting events, particularly the Flyers game Tuesday, March 10, and the Sixers game Wednesday, March 11. I contended that teams should offer refunds to fans who stayed home if they were worried about contracting coronavirus. I cited a CDC advisory for event planners to create refund policies."
+              },
+              {
+                "type": "text",
+                "value": "On March 9, I spoke with two Flyers. One compared the communicability of coronavirus to the flu. The other accused the media of overblowing the crisis. I spent most of March 10 fielding accusations that I'd written what I'd written to capitalize from the perceived alarmist climate surrounding the disease. Around midday on March 11 the World Health Organization declared the coronavirus a pandemic. I learned that while sitting in my home, binge-watching news channels, as I'd done for the previous week."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "caption",
+      "value": {
+        "caption": "lorem ipsum whatever",
+        "credit": "name of photographer"
+      }
+    },
+    {
+      "type": "combo",
+      "value": [
+        {
+          "type": "image",
+          "value": {
+            "id": "FSPGBNW3MRCSXFY32L3FDXPIKA",
+            "srcSet": [
+              {
+                "src": "https://www.inquirer.com/resizer/cr5CAeWTvkFJdsrieVPMEhPMCTA=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 325
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/ksPjsCuGJNqKJDaBSTzjB_I5Nh0=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 650
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/LooRMhKVH25xWc1t-b0ijUJ5aUc=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 1300
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/p37dy-xwxPYjgGDJX-HJT6TJqzQ=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 2600
+              }
+            ],
+            "caption": "This caption was overridden by specifying a “caption:” tag in the {.image} block. The next image uses the caption directly from Composer.",
+            "credit": "John Locher"
+          }
+        },
+        {
+          "type": "image",
+          "value": {
+            "id": "FSPGBNW3MRCSXFY32L3FDXPIKA",
+            "srcSet": [
+              {
+                "src": "https://www.inquirer.com/resizer/cr5CAeWTvkFJdsrieVPMEhPMCTA=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 325
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/ksPjsCuGJNqKJDaBSTzjB_I5Nh0=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 650
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/LooRMhKVH25xWc1t-b0ijUJ5aUc=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 1300
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/p37dy-xwxPYjgGDJX-HJT6TJqzQ=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 2600
+              }
+            ],
+            "caption": "This caption was overridden by specifying a “caption:” tag in the {.image} block. The next image uses the caption directly from Composer.",
+            "credit": "John Locher"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "combo",
+      "value": [
+        {
+          "type": "image",
+          "value": {
+            "id": "FSPGBNW3MRCSXFY32L3FDXPIKA",
+            "srcSet": [
+              {
+                "src": "https://www.inquirer.com/resizer/cr5CAeWTvkFJdsrieVPMEhPMCTA=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 325
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/ksPjsCuGJNqKJDaBSTzjB_I5Nh0=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 650
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/LooRMhKVH25xWc1t-b0ijUJ5aUc=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 1300
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/p37dy-xwxPYjgGDJX-HJT6TJqzQ=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/FSPGBNW3MRCSXFY32L3FDXPIKA.jpg",
+                "size": 2600
+              }
+            ],
+            "caption": "This caption was overridden by specifying a “caption:” tag in the {.image} block. The next image uses the caption directly from Composer.",
+            "credit": "John Locher"
+          }
+        },
+        {
+          "type": "image",
+          "value": {
+            "id": "DMB3DYALEJDHNDFC7ZXOS4C77I",
+            "srcSet": [
+              {
+                "src": "https://www.inquirer.com/resizer/A4jXXkN9mGHJeXEpxSjXlP-TGtg=/325x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/DMB3DYALEJDHNDFC7ZXOS4C77I.jpg",
+                "size": 325
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/UJR5Q0Smxlfj6K3JoeNmR7vCBXo=/650x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/DMB3DYALEJDHNDFC7ZXOS4C77I.jpg",
+                "size": 650
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/8RckW6RXX4c63fmaIn-Vzj3DxKU=/1300x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/DMB3DYALEJDHNDFC7ZXOS4C77I.jpg",
+                "size": 1300
+              },
+              {
+                "src": "https://www.inquirer.com/resizer/cYg41anqe8HNZ4bj4IHVWDDkRLY=/2600x0/cloudfront-us-east-1.images.arcpublishing.com/pmn/DMB3DYALEJDHNDFC7ZXOS4C77I.jpg",
+                "size": 2600
+              }
+            ],
+            "caption": "This caption was overridden by specifying a “caption:” tag in the {.image} block. The next image uses the caption directly from Composer.",
+            "credit": "Nick Wass"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "newsletter",
+      "value": {
+        "id": "3582e11a4a2bf30ffa4f63a4c9e0c599",
+        "title": "Let's Eat, Philly!",
+        "description": "Looking for new restaurants, food news, and the best ways to eat in Philadelphia? Every Wednesday, The Inquirer’s Mike Klein dishes the latest on Philly’s food scene."
+      }
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "ad",
+      "value": "phl.news"
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "ad",
+      "value": "phl.news"
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "ad",
+      "value": "phl.news"
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "related",
+      "value": {
+        "id": "[https://pmn.arcpublishing.com/composer/edit/H7ZWJIGJDBEZPBBRROWXABAC5M/](https://pmn.arcpublishing.com/composer/edit/H7ZWJIGJDBEZPBBRROWXABAC5M/)",
+        "align": "left",
+        "eyebrow": "Do a click on this",
+        "headlines": {
+          "basic": "How this Philly-based playwright found more lucrative work as a SEPTA bus driver",
+          "meta_title": "SEPTA and schools need more bus drivers",
+          "mobile": "",
+          "native": "",
+          "print": "",
+          "tablet": "",
+          "web": ""
+        },
+        "publish_date": "2021-06-12T09:11:00.000Z",
+        "promo_items": {
+          "basic": {
+            "_id": "XURPS52WB5F5FE34M3HN7S64OA",
+            "additional_properties": {
+              "fullSizeResizeUrl": "/resizer/Es530ms_T6xB7fjtE2NWjF0mkUo=/arc-anglerfish-arc2-prod-pmn/public/XURPS52WB5F5FE34M3HN7S64OA.jpg",
+              "galleries": [],
+              "keywords": [],
+              "mime_type": "image/jpeg",
+              "originalName": "PHILS228713.JPG",
+              "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/pmn/XURPS52WB5F5FE34M3HN7S64OA.jpg",
+              "proxyUrl": "/resizer/Es530ms_T6xB7fjtE2NWjF0mkUo=/arc-anglerfish-arc2-prod-pmn/public/XURPS52WB5F5FE34M3HN7S64OA.jpg",
+              "published": true,
+              "resizeUrl": "/resizer/Es530ms_T6xB7fjtE2NWjF0mkUo=/arc-anglerfish-arc2-prod-pmn/public/XURPS52WB5F5FE34M3HN7S64OA.jpg",
+              "restricted": false,
+              "takenOn": "2021-04-22T17:41:46Z",
+              "thumbnailResizeUrl": "/resizer/iveDHqy35pjBaMKG-XpuwfjJjIw=/300x0/arc-anglerfish-arc2-prod-pmn/public/XURPS52WB5F5FE34M3HN7S64OA.jpg",
+              "version": 2,
+              "visible_to_search": true,
+              "adapter_version": "0.8.0",
+              "expiry": "never"
+            },
+            "address": {},
+            "caption": "Muhammed Bilal Islam, is photographed with his bus at the SEPTA station in Upper Darby, Pa. Thursday, April 22, 2021.",
+            "copyright": "© Copyright 2021 Philadelphia Media Network",
+            "created_date": "2021-04-22T19:53:00Z",
+            "credits": {
+              "by": [
+                {
+                  "name": "JOSE F. MORENO / Staff Photographer",
+                  "type": "author"
+                }
+              ]
+            },
+            "distributor": {
+              "category": "staff",
+              "mode": "custom",
+              "name": "staff"
+            },
+            "geo": {},
+            "height": 1600,
+            "image_type": "photograph",
+            "last_updated_date": "2021-06-11T01:26:00Z",
+            "licensable": false,
+            "owner": {
+              "id": "pmn",
+              "sponsored": false
+            },
+            "slug": "FOWPIVOTBUS30",
+            "source": {
+              "name": "Staff",
+              "source_id": "2555658",
+              "source_type": "staff",
+              "additional_properties": {
+                "content_type": "betadam_image",
+                "editor": "photo center"
+              },
+              "system": "betadam"
+            },
+            "subtitle": "FOWPIVOTBUS30",
+            "taxonomy": {
+              "associated_tasks": []
+            },
+            "type": "image",
+            "url": "https://cloudfront-us-east-1.images.arcpublishing.com/pmn/XURPS52WB5F5FE34M3HN7S64OA.jpg",
+            "version": "0.10.3",
+            "width": 2400,
+            "syndication": {
+              "external_distribution": true,
+              "search": true
+            },
+            "publish_date": "2021-04-22T17:41:46.000Z"
+          }
+        },
+        "credits": {
+          "by": [
+            {
+              "_id": "von_bergen_jane_m",
+              "type": "author",
+              "version": "0.5.8",
+              "name": "Jane M. Von Bergen",
+              "image": {
+                "url": "https://s3.amazonaws.com/arc-authors/pmn/d64e054c-2578-4dd5-9315-1ac5a4b6740f.png",
+                "version": "0.5.8"
+              },
+              "description": "",
+              "url": "https://www.inquirer.com/author/von_bergen_jane_m/",
+              "social_links": [
+                {
+                  "site": "email",
+                  "url": "janevonbtheater@gmail.com"
+                },
+                {
+                  "site": "twitter",
+                  "url": "JaneVonBergen"
+                }
+              ],
+              "socialLinks": [
+                {
+                  "site": "email",
+                  "url": "janevonbtheater@gmail.com",
+                  "deprecated": true,
+                  "deprecation_msg": "Please use social_links."
+                },
+                {
+                  "site": "twitter",
+                  "url": "JaneVonBergen",
+                  "deprecated": true,
+                  "deprecation_msg": "Please use social_links."
+                }
+              ],
+              "additional_properties": {
+                "original": {
+                  "_id": "von_bergen_jane_m",
+                  "lastName": "Von Bergen",
+                  "education": [],
+                  "org": "pmn",
+                  "byline": "Jane M. Von Bergen",
+                  "email": "janevonbtheater@gmail.com",
+                  "twitter": "JaneVonBergen",
+                  "bio_page": "https://www.inquirer.com/author/von_bergen_jane_m/",
+                  "longBio": "",
+                  "author_type": "Staff",
+                  "podcasts": [],
+                  "type": "author",
+                  "awards": [],
+                  "books": [],
+                  "source": {
+                    "source_id": "33364264",
+                    "additional_properties": {
+                      "content_type": "Author"
+                    }
+                  },
+                  "role": "Staff Writer",
+                  "firstName": "Jane M.",
+                  "last_updated_date": "2022-03-30T12:34:19.321Z",
+                  "source_id": "33364264",
+                  "image": "https://s3.amazonaws.com/arc-authors/pmn/d64e054c-2578-4dd5-9315-1ac5a4b6740f.png",
+                  "bio": "",
+                  "status": true
+                }
+              }
+            }
+          ]
+        },
+        "description": {
+          "basic": "Bus driving jobs are hot. SEPTA is hiring 25 to 30 drivers a month and openings are likely to continue."
+        },
+        "website_url": "/business/septa-bus-driver-schools-jobs-philly-atlantic-city-20210612.html"
+      }
+    },
+    {
+      "type": "text",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "video",
+      "value": {
+        "id": "de479e61-7328-48b3-b5d2-b94444826253",
+        "align": "full",
+        "streams": [
+          {
+            "height": 180,
+            "width": 320,
+            "filesize": 11776132,
+            "stream_type": "ts",
+            "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/mobile.m3u8",
+            "bitrate": 160,
+            "provider": "mediaconvert"
+          },
+          {
+            "height": 360,
+            "width": 640,
+            "filesize": 16428944,
+            "stream_type": "ts",
+            "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/mobile.m3u8",
+            "bitrate": 300,
+            "provider": "mediaconvert"
+          },
+          {
+            "height": 360,
+            "width": 640,
+            "filesize": 26158508,
+            "stream_type": "ts",
+            "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/mobile.m3u8",
+            "bitrate": 600,
+            "provider": "mediaconvert"
+          },
+          {
+            "height": 480,
+            "width": 854,
+            "filesize": 45748860,
+            "stream_type": "ts",
+            "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/master.m3u8",
+            "bitrate": 1200,
+            "provider": "mediaconvert"
+          },
+          {
+            "height": 1080,
+            "width": 1920,
+            "filesize": 153956396,
+            "stream_type": "ts",
+            "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/hd.m3u8",
+            "bitrate": 4500,
+            "provider": "mediaconvert"
+          },
+          {
+            "height": 1080,
+            "width": 1920,
+            "filesize": 178289800,
+            "stream_type": "ts",
+            "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/hlsv4_master.m3u8",
+            "bitrate": 5400,
+            "provider": "mediaconvert"
+          },
+          {
+            "height": 180,
+            "width": 320,
+            "filesize": 9425129,
+            "stream_type": "mp4",
+            "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/file_320x180-160-v3.mp4",
+            "bitrate": 160,
+            "provider": "mediaconvert"
+          },
+          {
+            "height": 360,
+            "width": 640,
+            "filesize": 23494956,
+            "stream_type": "mp4",
+            "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/file_640x360-600-v3.mp4",
+            "bitrate": 600,
+            "provider": "mediaconvert"
+          },
+          {
+            "height": 480,
+            "width": 854,
+            "filesize": 42611547,
+            "stream_type": "mp4",
+            "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/file_854x480-1200-v3_1.mp4",
+            "bitrate": 1200,
+            "provider": "mediaconvert"
+          },
+          {
+            "height": 720,
+            "width": 1280,
+            "filesize": 68287017,
+            "stream_type": "mp4",
+            "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/file_1280x720-2000-v3_1.mp4",
+            "bitrate": 2000,
+            "provider": "mediaconvert"
+          },
+          {
+            "height": 1080,
+            "width": 1920,
+            "filesize": 176948714,
+            "stream_type": "mp4",
+            "url": "https://d36wdq4x3t6ywe.cloudfront.net/wp-pmn/Kristen_Balderas_Staff/20210915/614249884cedfd000102ca9d/t_db203decd38d417a86af2f076eee920b_name_Pastelillos_2/file_1920x1080-5400-v4.mp4",
+            "bitrate": 5400,
+            "provider": "mediaconvert"
+          }
+        ],
+        "credit": "Kristen Balderas",
+        "poster": "https://www.inquirer.com/resizer/Q0igl84orbKb87-khPRbc2AiJpk=/650x0/d1dazej9q2gz23.cloudfront.net/09-15-2021/t_f033be198ba94252bc1cb5cdd43398d7_name_Thumbnail.jpg"
+      }
+    },
+    {
+      "type": "endmark",
+      "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "type": "credits",
+      "value": [
+        {
+          "role": "Designer",
+          "names": "TK TK TKT"
+        },
+        {
+          "role": "Designer",
+          "names": "TK TK TKT"
+        },
+        {
+          "role": "Designer",
+          "names": "TK TK TKT"
+        }
+      ]
+    }
+  ]
+}

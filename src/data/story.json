@@ -1,0 +1,38 @@
+{
+  "_id": "GIPPWSWYTJAZ5OPNGWBKK7Z5N4",
+  "last_updated_date": "2022-05-19T14:32:34.955Z",
+  "credits": {
+    "by": [
+      {
+        "name": "Test Author",
+        "org": "Test Organization",
+        "type": "author"
+      }
+    ]
+  },
+  "promo_items": {
+    "basic": {
+      "type": "image",
+      "version": "0.10.7"
+    }
+  },
+  "label": {
+    "eyebrows": {
+      "display": true,
+      "text": "Special Report",
+      "url": "https://www.inquirer.com/special-reports/"
+    }
+  },
+  "headlines": {
+    "basic": "[DNU] All Archie Components",
+    "meta_title": "",
+    "mobile": "",
+    "native": "",
+    "print": "The All-New Unified Archie Template",
+    "tablet": "",
+    "web": ""
+  },
+  "subheadlines": {
+    "basic": "It’s now a lot easier to mix and match the components you love into expressive longforms and projects."
+  }
+}

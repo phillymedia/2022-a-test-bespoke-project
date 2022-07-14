@@ -1,0 +1,12 @@
+[
+  {
+    "id": "STARTER",
+    "composer": "composer-id-here",
+    "docs": {
+      "doc-name": "google-doc-id-here"
+    },
+    "sheets": {
+      "sheet-name": "google-sheet-id-here"
+    }
+  }
+]

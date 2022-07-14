@@ -1,0 +1,28 @@
+.inno-list {
+  list-style: none;
+}
+
+.inno-list__item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 24px;
+
+  @include mq($bp-md) {
+    margin-left: -20px;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0.50em;
+    left: 0.1em;
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    background-color: $color-base-mid-gray;
+
+    @include mq($bp-md) {
+      top: 0.55em;
+    }
+  }
+}

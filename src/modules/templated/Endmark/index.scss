@@ -1,0 +1,13 @@
+.inq-endmark {
+  display: inline-block;
+  height: 1.1em;
+  width: 1.1em;
+  margin-left: 5px;
+  vertical-align: text-bottom;
+  margin-bottom: 2px;
+  fill: var(--theme-color-primary);
+
+  .inno-background--white & {
+    fill: $color-base-navy;
+  }
+}

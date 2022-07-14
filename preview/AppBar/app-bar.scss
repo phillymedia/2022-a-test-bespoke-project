@@ -1,0 +1,106 @@
+@import "../../node_modules/sass-mq/mq";
+@import "/src/tokens";
+
+.app-bar {
+  position: relative;
+  min-height: 62px;
+  z-index: 10000;
+}
+
+.app-bar__wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid $color-base-navy;
+  background-color: $color-base-white;
+  overflow: hidden;
+
+  @include mq($bp-lg) {
+    border-bottom: 1px solid $color-base-mid-gray;
+  }
+}
+
+.app-bar__content {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  box-sizing: border-box;
+  align-items: center;
+  height: 62px;
+}
+
+.app-bar__icons {
+  display: grid;
+  grid-template-columns: 30px 30px;
+}
+
+.app-bar__icon {
+  margin-top: -3px;
+  display: block;
+}
+
+.app-bar__menu-icon {
+  position: relative;
+  color: $color-base-navy;
+  font-weight: bold;
+
+  &:before,
+  &:after {
+    content: '––';
+    position: absolute;
+    left: 0;
+  }
+
+  &:before {
+    top: -5px;
+  }
+
+  &:after {
+    top: 5px;
+  }
+}
+
+.app-bar__logo {
+  margin: 0 auto;
+  display: block;
+  height: 32px;
+
+  @include mq($bp-sm) {
+    height: 38px;
+  }
+
+  &--desktop {
+    display: none;
+
+    @include mq($bp-sm) {
+      display: block;
+    }
+  }
+
+  &--mobile {
+    @include mq($bp-sm) {
+      display: none;
+    }
+  }
+}
+
+.app-bar__user {
+  justify-self: end;
+}
+
+.app-bar__user-icon {
+  height: 20px;
+
+  @include mq($bp-lg) {
+    display: none;
+  }
+}
+
+.app-bar__user-name {
+  display: none;
+  font-family: $font-style-base;
+  font-size: $size-font-xs;
+
+  @include mq($bp-lg) {
+    display: block;
+  }
+}

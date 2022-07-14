@@ -1,0 +1,24 @@
+.inno-credits {
+  margin: 24px 0 48px;
+  font-family: $font-style-base;
+}
+
+.inno-credits__header {
+  color: var(--theme-color-text-primary);
+  font-size: $size-font-sm;
+  border-bottom: 1px solid $color-base-light-gray;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.inno-credits__roles {
+  display: grid;
+  gap: 8px;
+  color: var(--theme-color-text-secondary);
+  font-size: $size-font-xs;
+  line-height: 1.5;
+
+  @include mq($bp-md) {
+    grid-template-columns: 50% 50%;
+  }
+}

@@ -1,0 +1,101 @@
+.inno-steps {
+  position: relative;
+  overflow: auto;
+  margin-bottom: 24px;
+}
+
+@mixin spanner($color) {
+  background-color: $color;
+  box-shadow: 4px 0 0 $color, -4px 0 0 $color;
+  color: #fff;
+  padding: 1px 0;
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.inno-steps__step {
+  position: relative;
+  z-index: 2;
+  margin: 70vh auto;
+  padding: 8px;
+  background-color: var(--theme-color-background);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+
+  @include mq($bp-sm) {
+    padding: 12px;
+    margin: 70vh auto;
+  }
+
+  &:first-of-type {
+    margin-top: 80vh;
+  }
+
+  &:last-of-type {
+    margin-bottom: 90vh;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  strong {
+    @include spanner(var(--theme-color-primary));
+  }
+
+  .inno-p {
+    margin-bottom: 0;
+  }
+}
+
+.inno-steps__content {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+
+  @include mq($bp-md) {
+    box-sizing: border-box;
+    padding-top: 80px;
+  }
+
+  .inno-steps.is-fixed & {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .inno-steps.is-bottom & {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+  }
+}
+
+// CSS to add based on scroll position 
+// is-STEP-NAME classes are added to .inno-steps
+// .inno-steps {
+//   &.is-step-name {
+//     .inno-steps__content {
+//       background-color: red;
+//     }
+//   }
+
+//   &.is-another-id {
+//     .inno-steps__content {
+//       background-color: green;
+//     }
+//   }
+// }
+
+// Change colours of highlight words in steps copy
+// each .inno-steps__step is given a modifier class of .inno-steps__step--STEP-NAME
+// .inno-steps__step--step-name {
+//   strong {
+//     @include spanner(red);
+//   }
+// }

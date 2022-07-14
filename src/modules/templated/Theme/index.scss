@@ -1,0 +1,96 @@
+@use "sass:math";
+
+$fonts: (
+  "poster": $font-style-display-poster,
+  "display": $font-style-display,
+  "serif": $font-style-display-serif,
+  "condensed": $font-style-display-condensed,
+);
+
+@each $class, $font in $fonts {
+  .inno-font--#{$class} {
+    --theme-font: #{$font};
+    --theme-font-transform: uppercase;
+    --theme-font-multiplier: 1;
+    --theme-font-size: #{$size-font-lg};
+
+    @if $class == "display" {
+      --theme-font-transform: none;
+    }
+
+    @if $class == "condensed" or $class == "display" {
+      --theme-font-size: #{$size-font-lg * 1.25};
+      --theme-font-multiplier: 1.25;
+
+      @include mq($bp-lg) {
+        --theme-font-size: #{$size-font-xl * 1.25};
+        --theme-font-multiplier: 1.25;
+      }
+    }
+  }
+}
+
+$colors: (
+  "navy": $color-base-navy,
+  "pink": $color-spot-pink,
+  "orange": $color-spot-orange,
+  "yellow": $color-spot-yellow,
+  "green": $color-spot-green,
+  "periwinkle": $color-spot-periwinkle,
+  "cyan": $color-spot-cyan,
+  "black": $color-base-black,
+  "white": $color-base-white,
+  "red": $color-base-red,
+);
+
+@mixin text-contrast($n) {
+  $color-brightness: round(
+    math.div((red($n) * 299)+ (green($n) * 587)+ (blue($n) * 114), 1000)
+  );
+  $light-color: round(
+    math.div(
+      (red(#ffffff) * 299)+ (green(#ffffff) * 587)+ (blue(#ffffff) * 114),
+      1000
+    )
+  );
+  @if abs($color-brightness) < math.div($light-color, 2) {
+    --theme-color-contrast: #{$color-base-white};
+    --theme-color-contrast-invert: #{$color-base-navy};
+  } @else {
+    --theme-color-contrast: #{$color-base-navy};
+    --theme-color-contrast-invert: #{$color-base-white};
+  }
+}
+
+.inno-theme {
+  --theme-color-background: #{$color-base-white};
+  --theme-color-primary: #{$color-base-navy};
+  --theme-color-contrast: #{$color-base-white};
+  --theme-color-contrast-invert: #{$color-base-navy};
+
+  --theme-color-text-primary: #{$color-base-navy};
+  --theme-color-text-link: #{$color-base-blue};
+  --theme-color-text-secondary: #{$color-base-dark-gray};
+  --theme-color-text-tertiary: #{$color-base-mid-gray};
+
+  background: var(--theme-color-background);
+  color: var(--theme-color-text-primary);
+}
+
+.inno-background {
+  @each $class, $color in $colors {
+    &--#{$class} {
+      --theme-color-primary: #{$color};
+      @include text-contrast($color);
+    }
+  }
+}
+
+.inno-contrast {
+  &--dark {
+    --theme-color-background: #242326;
+    --theme-color-text-primary: #{$color-base-white};
+    --theme-color-text-secondary: #{$color-base-mid-gray};
+    --theme-color-text-link: #4d8bff;
+  }
+}

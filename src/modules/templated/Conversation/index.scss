@@ -1,0 +1,155 @@
+.inno-conversation {
+  // Border Variants
+  &--border-square,
+  &--border-conversation {
+    .inno-conversation__quote-body {
+      box-sizing: border-box;
+      border: 1px solid;
+      padding: 20px;
+      margin-left: 10px;
+      position: relative;
+      background: var(--theme-color-background);
+    }
+
+    &.inno-conversation--alternating {
+      .inno-conversation__quote:nth-child(even) {
+        .inno-conversation__quote-body {
+          margin-left: 0px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  &--border-conversation {
+    .inno-conversation__quote-body {
+      .inno-conversation__quote-name,
+      .inno-conversation__quote-label {
+        position: relative;
+      }
+
+      &::before {
+        content: " ";
+        position: absolute;
+        top: -1px;
+        left: -7px;
+        border: 1px solid;
+        border-right-style: none;
+        border-bottom-style: none;
+        background: var(--theme-color-background);
+        width: 20px;
+        height: 20px;
+        transform: skewX(30deg);
+      }
+    }
+
+    &.inno-conversation--alternating {
+      .inno-conversation__quote:nth-child(even) {
+        .inno-conversation__quote-body {
+          &::before {
+            transform: skewX(-30deg);
+            border-right-style: solid;
+            border-left-style: none;
+            left: auto;
+            right: -7px;
+          }
+        }
+      }
+    }
+  }
+
+  // Basic alternating variant
+  &--alternating {
+    .inno-conversation__quote:nth-child(even) {
+      flex-direction: row-reverse;
+
+      @include mq(850px) {
+        margin-left: 0px;
+        margin-right: -90px;
+      }
+    }
+  }
+
+  // colours
+  &--mood-somber {
+    --color-0: #595760;
+    --color-1: #89848B;
+    --color-2: #BDBDBD;
+    --color-3: #16183A;
+    --color-4: #000000;
+  }
+
+  &--mood-lively {
+    --color-0: #FE93BD;
+    --color-1: #FF641E;
+    --color-2: #21D278;
+    --color-3: #6E9BFF;
+    --color-4: #65CCFF;
+  }
+}
+
+.inno-conversation__quote {
+  margin: 50px 0px;
+  display: flex;
+
+  @include mq(850px) {
+    margin-left: -90px;
+  }
+
+  @for $i from 0 through 4 {
+    &--#{$i} {
+      .inno-conversation__quote-body,
+      .inno-conversation__quote-body::before {
+        border-color: var(--color-#{$i});
+      }
+
+      .inno-conversation__quote-name {
+        color: var(--color-#{$i});
+      }
+    }
+  }
+}
+
+.inno-conversation__quote-portrait {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  flex: 0 0 80px;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
+
+  .inno-conversation__quote-portrait--deco {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    left: -5px;
+    top: -5px;
+  }
+}
+
+.inno-conversation__quote-body {
+  padding-left: 10px;
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.inno-conversation__quote-name {
+  font-family: $font-style-base;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.inno-conversation__quote-label {
+  font-family: $font-style-base;
+  color: $color-base-mid-gray;
+  margin-bottom: 10px;
+}

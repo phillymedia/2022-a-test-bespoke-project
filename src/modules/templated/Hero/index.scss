@@ -1,0 +1,108 @@
+@import "../StoryMeta/index.scss";
+
+.inno-hero {
+  padding-bottom: 32px;
+
+  &--has-media {
+    .inno-hero__content {
+      padding-bottom: 64px;
+
+      @include mq($bp-lg) {
+        padding-bottom: 128px;
+      }
+    }
+  }
+
+  &--has-no-media {
+    .inno-hero__content {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.inno-hero__content {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  background: var(--theme-color-primary);
+  color: var(--theme-color-contrast);
+
+  @include mq($bp-lg) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.inno-hero__eyebrow {
+  font-family: $font-style-base;
+  text-transform: uppercase;
+  font-size: $size-font-xxs;
+  font-weight: bold;
+  padding: 5px;
+  background: var(--theme-color-contrast);
+  color: var(--theme-color-contrast-invert);
+  width: max-content;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.inno-hero__headline {
+  font-family: var(--theme-font);
+  text-transform: var(--theme-font-transform);
+  font-size: calc(var(--theme-font-multiplier) * $size-font-xl);
+  margin: 5px 0;
+  line-height: 1;
+
+  @include mq($bp-lg) {
+    font-size: calc(var(--theme-font-multiplier) * $size-font-xxl);
+    margin: 10px 0;
+  }
+}
+
+.inno-hero__subheadline {
+  font-family: $font-style-base;
+  font-size: $size-font-md;
+  line-height: 1.65;
+}
+
+.inno-hero__media {
+  position: relative;
+  z-index: 2;
+  margin-top: -48px;
+
+  @include mq($bp-lg) {
+    margin-top: -96px;
+  }
+}
+
+$colors: (
+  "navy": $color-base-navy,
+  "pink": $color-spot-pink,
+  "orange": $color-spot-orange,
+  "yellow": $color-spot-yellow,
+  "green": $color-spot-green,
+  "periwinkle": $color-spot-periwinkle,
+  "cyan": $color-spot-cyan,
+  "black": $color-base-black,
+  "white": $color-base-white,
+  "red": $color-base-red,
+);
+
+@each $class, $color in $colors {
+  .inno-hero--bg-#{$class} {
+    @extend .inno-background--#{$class};
+  }
+}
+
+$fonts: (
+  "poster": $font-style-display-poster,
+  "display": $font-style-display,
+  "serif": $font-style-display-serif,
+  "condensed": $font-style-display-condensed,
+);
+
+@each $class, $font in $fonts {
+  .inno-hero--font-#{$class} {
+    @extend .inno-font--#{$class};
+  }
+}

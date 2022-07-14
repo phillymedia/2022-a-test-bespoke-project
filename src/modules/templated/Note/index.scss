@@ -1,0 +1,39 @@
+.inno-note {
+  margin-bottom: 32px;
+
+  .inno-p {
+    color: $color-base-dark-gray;
+    font-size: $size-font-xs;
+    line-height: 1.6;
+
+    a {
+      color: $color-base-dark-gray;
+      box-shadow: inset 0 -1px 0 0 $color-base-dark-gray;
+      transition: color 0.25s ease;
+
+      &:hover {
+        color: $color-base-blue;
+        box-shadow: inset 0 -1px 0 0 $color-base-blue;
+      }
+    }
+  }
+
+  .inno-heading {
+    color: $color-base-navy;
+    font-family: $font-style-base;
+    font-size: $size-font-sm;
+    font-weight: normal;
+    text-transform: none;
+    border-bottom: 1px solid $color-base-light-gray;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+  }
+}
+
+.inno-note__title {
+  color: $color-base-navy;
+  font-size: $size-font-sm;
+  border-bottom: 1px solid $color-base-light-gray;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,16 @@
+.inno-caption {
+  padding: 8px 0;
+  color: var(--theme-color-text-secondary);
+  font-family: $font-style-base;
+  font-size: $size-font-xs;
+  line-height: 1.5;
+}
+
+.inno-caption__caption-text {
+  display: block;
+}
+
+.inno-caption__credit {
+  color: var(--theme-color-text-tertiary);
+  display: block;
+}

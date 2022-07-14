@@ -1,0 +1,66 @@
+@import "/src/tokens";
+
+.footer {
+  &.footer-copyright {
+    background-color: rgb(238, 238, 238);
+
+    .footer-row {
+      padding: 22px 120px;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      justify-content: space-between;
+      color: rgb(34, 34, 34);
+      
+      @media screen and (max-width: 850px) {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+      }
+
+      @media screen and (max-width: 570px) {
+        padding: 22px 25px;
+      }
+    }
+
+    .footer-copyright-container {
+      font-size: $size-font-xs;
+      line-height: 16px;
+      letter-spacing: -0.2px;
+
+      a.footer-link {
+        font-weight: bold;
+        font-size: $size-font-xs;
+      }
+    }
+
+    .footer-share-bar-container {
+
+      a.footer-link {
+        font-size: 18px;
+
+        &:not(:last-child) {
+          margin-right: 36px;
+        }
+
+        img {
+          width: 1rem;
+          object-position: center;
+          height: 16px;
+          display: inline;
+        }
+      }
+      
+      @media screen and (max-width: 850px) {
+        margin-bottom: $size-spacing-lg;
+      }
+    }
+  }
+
+  .footer-container {
+    max-width: 1280px;
+    margin: auto;
+    height: 100%;
+  }
+
+}

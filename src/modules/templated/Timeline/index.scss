@@ -1,0 +1,220 @@
+$color-card-shadow: rgba(89, 87, 96, 0.1);
+
+.inno-tl__body {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: $color-base-concrete;
+
+  @include mq($bp-md) {
+    padding: 40px 0;
+  }
+
+  @include mq($bp-lg) {
+    .inno-container {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      align-items: start;
+      gap: 20px;
+    }
+  }
+}
+
+.inno-tl__overview {
+  overflow: auto;
+  padding-top: 40px;
+  font-family: $font-style-base;
+
+  @include mq($bp-md) {
+    padding-top: 0;
+    max-width: 650px;
+    margin: 0 auto 20px;
+  }
+
+  @include mq($bp-lg) {
+    position: sticky;
+    overflow: auto;
+    width: 100%;
+    top: 80px;
+    max-height: calc(100vh - 80px);
+    padding-bottom: 80px;
+    overflow-y: scroll;
+  }
+}
+
+.inno-tl__overview__header {
+  border-bottom: 1px solid $color-base-light-gray;
+  padding: 16px 0;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 30;
+  background-color: $color-base-concrete;
+
+  @include mq(0px, $bp-md) {
+    position: fixed;
+    top: 62px;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    transition: transform 0.4s ease-in-out;
+    transform: translateY(-100%);
+    z-index: 12;
+
+    &--is-visible {
+      transform: translateY(0);
+    }
+  }
+
+  @include mq($bp-md) {
+    padding-top: 0;
+
+    .inq-flip-icon {
+      display: none;
+    }
+  }
+}
+
+.inno-tl__overview__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $color-base-dark-gray;
+  font-size: $size-font-sm;
+}
+
+.inno-tl__overview__items {
+  @include mq(0px, $bp-md) {
+    position: fixed;
+    height: 0;
+    overflow: hidden;
+    transition: transform 0.4s ease-in-out;
+    transform: translateY(-100%);
+
+    &--is-open {
+      display: block;
+      position: fixed;
+      background-color: $color-base-concrete;
+      top: 111px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 10;
+      padding: 16px;
+      transform: translateY(0);
+      height: auto;
+      overflow: scroll;
+    }
+  }
+}
+
+.inno-tl__overview__item {
+  position: relative;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  font-size: $size-font-sm;
+  line-height: 1.4;
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 4px;
+    left: 0;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: $color-base-black;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    width: 1px;
+    height: 100%;
+    background-color: $color-base-light-gray;
+  }
+
+  &--selected {
+    .inno-tl__overview__item-date {
+      color: $color-base-black;
+    }
+  }
+
+  &--last:after {
+    display: none;
+  }
+}
+
+.inno-tl__overview__item-date {
+  display: block;
+  color: $color-base-mid-gray;
+  transition: color 0.3s linear;
+}
+
+.inno-tl__overview__item-title {
+  text-decoration: none;
+  color: $color-base-blue;
+  transition: color 0.2s ease-in;
+
+  &:hover {
+    color: $color-base-navy;
+  }
+}
+
+.inno-tl__timeline__items {
+  max-width: 650px;
+  margin: 0 auto;
+
+  @include mq($bp-lg) {
+    max-width: 800px;
+  }
+}
+
+// This deals with the offset of the header
+.inno-tl__timeline__item {
+  margin-top: -120px;
+  padding-top: 120px;
+
+  @include mq($bp-md) {
+    margin-top: -70px;
+    padding-top: 70px;
+  }
+
+  .inno-ad {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.inno-tl__card {
+  background-color: $color-base-white;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px $color-card-shadow, 0 3px 6px $color-card-shadow;
+  padding: 20px;
+  font-family: $font-style-base;
+
+  .inno-p {
+    color: $color-base-navy;
+  }
+}
+
+.inno-tl__card__date {
+  display: block;
+  color: $color-base-dark-gray;
+  margin-bottom: 10px;
+}
+
+.inno-tl__card__title {
+  display: block;
+  font-weight: bold;
+  color: $color-base-black;
+  font-size: $size-font-lg;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.inno-tl__card__body .figure {
+  margin-bottom: 24px;
+}

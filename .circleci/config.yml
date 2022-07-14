@@ -1,0 +1,35 @@
+version: 2.1
+
+parameters:
+  cmd:
+    type: string
+    default: build
+  project:
+    type: string
+    default: default
+
+workflows:
+  build:
+    jobs:
+      - build:
+          context:
+            - innovation-projects
+
+jobs:
+  build:
+    docker:
+      - image: cimg/node:16.13.1
+    steps:
+      - checkout
+      - run:
+          name: Setup env var
+          command: echo "export AES_KEY=${AES_KEY}" >> $BASH_ENV
+      - run:
+          name: Decrypt secrets
+          command: npm run decrypt-secrets
+      - run:
+          name: Installing NPM dependencies
+          command: npm install
+      - run:
+          name: Build
+          command: npm run << pipeline.parameters.cmd >> --project=<< pipeline.parameters.project >>

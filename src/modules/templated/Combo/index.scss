@@ -1,0 +1,10 @@
+.inno-combo {
+  display: grid;
+  gap: 24px;
+
+  &--2up {
+    @include mq($bp-md) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

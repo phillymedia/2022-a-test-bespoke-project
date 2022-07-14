@@ -1,0 +1,33 @@
+.inno-image {
+  width: auto;
+  margin-bottom: 24px;
+
+  &--left {
+    @include mq($bp-md) {
+      float: left;
+      width: 325px - 24px; // 650px / 2
+      margin-right: 24px;
+    }
+
+    @include mq($bp-xl) {
+      margin-left: -160px;
+    }
+  }
+
+  &--right {
+    @include mq($bp-md) {
+      float: right;
+      width: 325px - 24px; //  650px / 2;
+      margin-left: 24px;
+    }
+
+    @include mq($bp-xl) {
+      margin-right: -160px;
+    }
+  }
+}
+
+.inno-image__img {
+  width: 100%;
+  display: block;
+}

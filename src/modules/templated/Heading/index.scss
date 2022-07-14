@@ -1,0 +1,12 @@
+.inno-heading {
+  font-family: var(--theme-font, $font-style-display);
+  text-transform: var(--theme-font-transform, none);
+  color: var(--theme-color-text-primary);
+  font-size: var(--theme-font-size, #{$size-font-lg});
+  line-height: 1.2;
+  margin: 48px 0 12px;
+
+  @include mq($bp-md) {
+    font-size: var(--theme-font-size, #{$size-font-xl});
+  }
+}

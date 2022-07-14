@@ -1,0 +1,39 @@
+.inno-story-meta {
+  border-top: 1px solid $color-base-light-gray;
+  border-bottom: 1px solid $color-base-light-gray;
+  padding: 16px 0;
+}
+
+.inno-story-meta__timestamp {
+  font-family: $font-style-base;
+  font-size: $size-font-sm;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.inno-story-meta__timestamp-date {
+  color: var(--theme-color-text-primary);
+}
+
+.inno-story-meta__timestamp-label {
+  color: var(--theme-color-text-secondary);
+}
+
+// Author
+.inno-story-meta__authors {
+  color: var(--theme-color-text-primary, $color-base-navy);
+  font-size: $size-font-sm;
+  font-family: $font-style-base;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.inno-story-meta__author-link {
+  color: var(--theme-color-text-primary, $color-base-navy);;
+  text-decoration: none;
+  transition: color 0.4s ease-in-out;
+
+  &:hover {
+    color: var(--theme-color-text-link, $color-base-blue);
+  }
+}

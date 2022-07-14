@@ -1,0 +1,106 @@
+@import "/src/tokens";
+
+.footer {
+  font-family: $font-style-base;
+  background: $color-base-white;
+  
+  .grid-column {
+    display: grid;
+    padding: $size-spacing-xs 0;
+    background-color: $color-base-white;
+    color: $color-base-black;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+
+    @media screen and (max-width: 999px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 480px) {
+      padding: 0;
+      display: block;
+    }
+  }
+
+  a.footer-link {
+    color: $color-base-black;
+    text-decoration: none;
+    margin-right: $size-spacing-xxs;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+
+  a.footer-link:hover {
+    text-decoration: underline;
+  }
+
+  .footer-column {
+    margin: $size-spacing-xs auto;
+    max-width: 210px;
+    width: 100%;
+
+    @media screen and (max-width: 480px) {
+      margin: 0;
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: $size-spacing-xs;
+
+      &:first-child {
+        padding-top: $size-spacing-lg;
+      }
+
+      &:last-child {
+        padding-bottom: $size-spacing-xl;
+        margin-bottom: 0;
+      }
+    }
+
+    .group {
+      margin-bottom: 40px;
+
+      @media screen and (max-width: 480px) {
+        margin-bottom: 0;
+
+        &:first-child {
+          margin-bottom: $size-spacing-xs;
+        }
+      }
+    }
+  }
+
+  .links-headline {
+    font-size: $size-font-sm;
+    border-bottom: 1px solid $color-base-light-gray;
+    font-weight: 700;
+    width: 210px;
+    letter-spacing: 0;
+    padding: 0 0 $size-spacing-xxs;
+    margin-bottom: 10px;
+
+    @media screen and (max-width: 480px) {
+      padding-left: 15px;
+      padding-right: 15px;
+      width: auto;
+    }
+  }
+
+  .links-content {
+    @media screen and (max-width: 480px) {
+      display: flex;
+    }
+
+    ul {
+      @media screen and (max-width: 480px) {
+        padding: 0 15px;
+      }
+
+      &.column-mobile {
+        flex: 1;
+      }
+  
+      li {
+        margin-bottom: $size-spacing-xs;
+      }
+    }
+  }
+}

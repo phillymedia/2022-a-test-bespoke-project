@@ -1,0 +1,86 @@
+// Mixins and variables
+@import "../node_modules/sass-mq/mq";
+@import "./tokens";
+
+// Used templated modules
+@import "./modules/templated/index.scss";
+
+// Used custom modules
+@import "./modules/custom/index.scss";
+
+// Generic/Helper templated modules
+@import "./modules/templated/Theme/index.scss";
+@import "./modules/templated/Caption/index.scss";
+@import "./modules/templated/Paragraph/index.scss";
+
+.inno {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-style-base;
+  margin-bottom: 64px;
+}
+
+.inno-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.inno-uncontain {
+  margin-left: -16px;
+  margin-right: -16px;
+
+  @include mq(650px + 32px) {
+    margin-left: calc((100vw - 650px) / -2);
+    margin-right: calc((100vw - 650px) / -2);
+  }
+}
+
+.inno-content {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.inno-uncontent {
+  @include mq(650px + 32px) {
+    margin-left: calc((100vw - 32px - 650px) / -2);
+    margin-right: calc((100vw - 32px - 650px) / -2);
+  }
+
+  @include mq(1250px + 32px) {
+    margin-left: -300px;
+    margin-right: -300px;
+  }
+}
+
+.inno-group {
+  .inno-uncontain,
+  .inno-uncontent {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+// For documentation code styling
+.inno {
+  pre {
+    background: white;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 11pt;
+    line-height: 1.4em;
+    color: #5b5b5b;
+    border: 1px solid #357abf;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    white-space: pre-wrap;
+    tab-size: 2;
+    font-weight: normal;
+    margin-bottom: 24px;
+
+    .tag {
+      color: #357abf;
+      background: #c9def1;
+    }
+  }
+}
